@@ -1,0 +1,13 @@
+#requirements
+sys
+time
+argparse
+requests
+logging
+copy
+json
+os
+datetime
+boto3
+botocore
+logging
