@@ -1,8 +1,8 @@
 FROM python:3.12.0
 
-ADD ./src/integratedexercise/ingest.py
-ADD .src/integratedexercise/util.py
-ADD requirements.txt
+ADD ./src/integratedexercise/ingest.py /app
+ADD ./src/integratedexercise/util.py /app
+ADD requirements.txt /app
 
 RUN pip install -r requirements.txt
 
